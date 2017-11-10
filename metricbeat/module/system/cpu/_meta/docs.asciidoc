@@ -22,6 +22,6 @@ is a list and three metric types are supported - `percentages`,
 ----
 metricbeat.modules:
 - module: system
-  metricsets: [core]
+  metricsets: [cpu]
   core.metrics: [percentages, normalized_percentages, ticks]
 ----
